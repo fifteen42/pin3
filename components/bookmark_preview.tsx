@@ -24,9 +24,9 @@ const Star = ({isStarred}:StarProps) => {
 const Tags = ({tags}:TagsProps) => {
     return(
         <div>
-            {tags.map(tag => {
+            {tags.map((tag,id) => {
                 return(
-                    <p className="text-stone-400 inline-block mr-2" >{tag}</p>
+                    <p key={id} className="text-stone-400 inline-block mr-2" >{tag}</p>
                 );
             })}
         </div>

@@ -10,7 +10,6 @@ const Home: NextPage = () => {
   useEffect(() => {
     const list = [
       {
-        id:1,
         link:"https://github.com/firebase/firebase-admin-node/issues/320",
         title:"All firestore set(doc) calls fail",
         description:"dmin.firestore().collection('whatever').doc(\"\"+id)",
@@ -21,7 +20,6 @@ const Home: NextPage = () => {
         isStarred:true
       },
       {
-        id:2,
         link:"https://github.com/firebase/firebase-admin-node/issues/320",
         title:"All firestore set(doc) calls fail",
         description:"dmin.firestore().collection('whatever').doc(\"\"+id)",
@@ -32,7 +30,6 @@ const Home: NextPage = () => {
         isStarred:false
       },
       {
-        id:3,
         link:"https://github.com/firebase/firebase-admin-node/issues/320",
         title:"All firestore set(doc) calls fail",
         description:"dmin.firestore().collection('whatever').doc(\"\"+id)",
@@ -43,7 +40,6 @@ const Home: NextPage = () => {
         isStarred:false
       },
       {
-        id:4,
         link:"https://github.com/firebase/firebase-admin-node/issues/320",
         title:"All firestore set(doc) calls fail",
         description:"dmin.firestore().collection('whatever').doc(\"\"+id)",
