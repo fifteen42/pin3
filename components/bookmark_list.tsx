@@ -13,7 +13,7 @@ const BookmarkList:React.ElementType = ({
         <div className="w-2/4" >
             {list.map((bookmark) => {
                 return(
-                <div>
+                <div key={bookmark.id} >
                     <BookmarkPreview bookmark={bookmark} />
                     <div className="divider" ></div>
                 </div>
